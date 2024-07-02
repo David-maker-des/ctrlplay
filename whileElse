@@ -1,0 +1,72 @@
+x = 0
+y = 1
+while x <= 5:
+    print(x)
+    print(y)
+    x = x + y
+    y = x + y
+else:
+    print('the end')
+
+
+t = [1,2,3,4,5,6,7,8,9,10,11,12]
+len(t)
+
+
+q = set()
+q.add(1)
+q.add(2)
+q.add(3)
+q.add(4)
+q.add(4)
+print(q)
+
+
+print(t[0])
+
+print(t[2:7])
+
+t.index(1)
+
+
+x = (1,2,3)
+t.append(7)
+t.pop(2)
+t.remove(1)
+print(x)
+print(t)
+
+
+a = True
+b = False
+c = 3<100
+d = 1000>11
+e = None
+print(a,b,c,d,e)
+
+
+
+x = int(input('qual numero?'))
+y = int(input('qual numero?'))
+while x <= 100:
+    print(x)
+    x = x + y
+else:
+    print('the end')
+
+
+s = []
+for h in range(1,11):
+    z = int(input('numero'))
+    s.append(z)
+d = sorted(s)
+print(d[-1])
+
+
+x = int(input('qual numero?'))
+y = int(input('qual numero?'))
+while x <= 1000:
+    print(x)
+    x = x + y
+else:
+    print('the end')

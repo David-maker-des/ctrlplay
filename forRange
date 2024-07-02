@@ -1,0 +1,25 @@
+for num in range(1,100):
+    print(num)
+
+
+lista = list(range(1,1000))
+print(lista)
+
+
+for nume in range(1,10000):
+    if (nume %2 !=0):
+        print(nume)
+
+
+anime = 'death note'
+for letra in anime:
+    print(letra)
+
+
+soma = 0
+numeros = range(1,10000)
+i=0 
+while soma < 100:
+    soma += 0
+#se for executar, separa
+
